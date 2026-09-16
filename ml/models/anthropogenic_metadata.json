@@ -1,0 +1,59 @@
+{
+  "model_type": "XGBoost binary classifier",
+  "task": "anthropogenic_vs_non_industrial",
+  "label_map": {
+    "non_industrial": 0,
+    "anthropogenic": 1
+  },
+  "feature_names": [
+    "latitude",
+    "longitude",
+    "frp",
+    "brightness",
+    "frp_brightness_ratio",
+    "confidence_num",
+    "is_day",
+    "hour_of_day",
+    "month",
+    "day_of_year",
+    "is_stubble_season",
+    "nighttime_fraction_facility",
+    "active_days_facility",
+    "observation_frequency_facility",
+    "days_since_first_seen",
+    "days_since_last_seen",
+    "avg_frp_facility",
+    "max_frp_facility",
+    "frp_vs_facility_avg",
+    "distance_to_facility_m",
+    "facility_proximity_flag",
+    "neighbor_count_1km_24h",
+    "landuse_industrial",
+    "landuse_agricultural",
+    "landuse_forest",
+    "landuse_unknown",
+    "satellite_code",
+    "instrument_code",
+    "recent_7d_facility_detections"
+  ],
+  "feature_count": 29,
+  "weak_supervision": true,
+  "training_rows": 832,
+  "cross_validation": [
+    {
+      "fold": 1,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    {
+      "fold": 2,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    {
+      "fold": 3,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Frontend
+dist/
+build/
+
+# Database & local data
+*.db
+*.sqlite
+data/
+datasets/
+*.csv
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key

@@ -1,0 +1,7 @@
+{
+  "mode": "LIVE",
+  "source": "VIIRS_NOAA21_NRT",
+  "rows": 32,
+  "message": "NASA FIRMS data loaded successfully",
+  "updated_at": "2026-09-13T08:31:00.344928+00:00"
+}
