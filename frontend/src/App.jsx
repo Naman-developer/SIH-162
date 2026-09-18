@@ -1942,7 +1942,17 @@ export default function App() {
       </div>
 
       {/* ── DASHBOARD ── */}
-      <div style={{ width: 380, background: '#0f1117', borderLeft: '1px solid #1e293b', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div
+        className="intel-panel"
+        style={{
+          width: 380,
+          background: '#0f1117',
+          borderLeft: '1px solid #1e293b',
+          display: 'flex',
+          flexDirection: 'column',
+          overflow: 'hidden'
+        }}
+      >
 
         <div style={{ padding: '16px 20px', borderBottom: '1px solid #1e293b' }}>
           <div
