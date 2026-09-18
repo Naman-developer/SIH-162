@@ -942,7 +942,16 @@ export default function App() {
     }))
 
   return (
-    <div style={{ display: 'flex', height: '100vh', background: '#0f1117', color: '#e2e8f0', fontFamily: 'Inter, sans-serif' }}>
+    <div
+      className="fire-app"
+      style={{
+        display: 'flex',
+        height: '100vh',
+        background: '#0f1117',
+        color: '#e2e8f0',
+        fontFamily: 'Inter, sans-serif'
+      }}
+    >
       {showPredictionEngine && (
         <div
           style={{
@@ -1619,7 +1628,10 @@ export default function App() {
       )}
 
       {/* ── MAP ── */}
-      <div style={{ flex: 1, position: 'relative' }}>
+      <div
+        className="map-shell"
+        style={{ flex: 1, position: 'relative' }}
+      >
         <MapContainer center={[30.5, 75.8]} zoom={7} style={{ height: '100%', width: '100%' }} zoomControl={true}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
